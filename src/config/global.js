@@ -1,8 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'La organización y su naturaleza',
+    descripcionCurso:
+      'Este componente se centra en identificar los procesos administrativos, planeación estratégica, sus características y elementos en la organización. Asimismo conceptos y normativas de responsabilidad social, desarrollo sostenible, identificación de partes interesadas para la organización y técnicas de diagnóstico.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
