@@ -158,8 +158,8 @@
     .titulo(style='background-color: #F0BD51').d-inline-block.p-3.mb-4
       h4.mb-0 Características y elementos de la organización
     p.mb-5(data-aos='fade-right') Una organización se define como un conjunto de individuos que cooperan entre sí para alcanzar determinados objetivos y metas. Según Max Weber (1922), una organización es: #[b “un grupo de personas que se asocian con el propósito de lograr un objetivo y que está direccionado a través de reglas y órdenes que se dan mediante un jefe”.] A continuación, conozca las características y elementos de la organización:
-    .margin-n(style='background-color: #FFF9ED').p-5
-      .row.justify-content-center.mb-5
+    .margin-n(style='background-color: #FFF9ED').p-5.mb-5
+      .row.justify-content-center.align-items-end.mb-5
         .col-lg-9
           .row.justify-content-center.mb-2.g-0
             .col-lg-2
@@ -204,15 +204,241 @@
               div(style='background-color: #FAEBCD').p-5.h-100
                 p.mb-0 #[b Son innovadoras.] Las organizaciones deben ser creativas, con el propósito de crear nuevos procesos en el medio en que se desenvuelven, influenciado por los efectos de la globalización. De hecho, los recursos humanos van integrando condiciones de su entorno, se van identificando con esa organización. Adaptan su conducta, impulsando y optimizando las operaciones de la organización.
           .row.justify-content-center.mb-2.g-0
-            .col-lg-1
+            .col-lg-2
               div(style='background-color: #F0BD51 ').p-4.h-100.d-flex.align-items-center
                 img(src='@/assets/curso/temas/tema1/21.svg', alt='' style='width: 59px').m-auto
             .col-lg-10
               div(style='background-color: #FAEBCD').p-5.h-100
                 p.mb-0 #[b Persiguen la eficiencia.] Todos los recursos deben ser eficientes. Es decir, obtienen un máximo rendimiento, en relación con calidad y cantidad, con un menor costo o gasto de recursos. 
-          
-
-    
+        .col-lg-3: img.d-none.d-lg-block(src='@/assets/curso/temas/tema1/22.svg', alt='')  
+      p.mb-5(data-aos='fade-right') Los elementos de una organización son los recursos que requiere para ejecutar sus actividades y lograr sus metas. 
+      SlyderF.slyder-100.mb-5(columnas="col-lg-6 col-xl-4")
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/23.svg' alt='AvatarTop')
+          div(style='background-color: #EF8B53').p-5.h-100
+            .titutlo.rounded-pill.d-inline-block.p-3.bg-white.mt-5.d-flex.justify-content-center.mb-3
+              h4.mb-0.text-center Recursos Humanos
+            p Conformados por el personal que integra la organización, estas personas brindan esfuerzos físicos para el desarrollo de funciones y recibir a cambio una retribución.
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/24.svg' alt='AvatarTop')
+          div(style='background-color: #F0BD51').p-5.h-100
+            .titutlo.rounded-pill.d-inline-block.p-3.bg-white.mt-5.d-flex.justify-content-center.mb-3
+              h4.mb-0.text-center Recursos Intangibles
+            p Es aquella marca, patente, símbolos, prestigios y demás.
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/25.svg' alt='AvatarTop')
+          div(style='background-color: #EF8B53').p-5.h-100
+            .titutlo.rounded-pill.d-inline-block.p-3.bg-white.mt-5.d-flex.justify-content-center.mb-3
+              h4.mb-0.text-center Recursos Materiales
+            p Son las materias primas, bienes muebles e inmuebles, maquinaria, equipos o elementos financieros.
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/26.svg' alt='AvatarTop')
+          div(style='background-color: #F0BD51').p-5.h-100
+            .titutlo.rounded-pill.d-inline-block.p-3.bg-white.mt-5.d-flex.justify-content-center.mb-3
+              h4.mb-0.text-center Recursos Naturales
+            p La tierra, el aire, el agua, la luz solar, la energía son algunos de los recursos naturales, pero la organización debe obtenerlos a un costo.
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/27.svg' alt='AvatarTop')
+          div(style='background-color: #EF8B53').p-5.h-100
+            .titutlo.rounded-pill.d-inline-block.p-3.bg-white.mt-5.d-flex.justify-content-center.mb-3
+              h4.mb-0.text-center Recursos Tecnológicos
+            p Son aquellos métodos, procesos y equipos.
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/tema1/28.svg' alt='AvatarTop')
+          div(style='background-color: #F0BD51').p-5.h-100
+            .titutlo.rounded-pill.d-inline-block.p-3.bg-white.mt-5.d-flex.justify-content-center.mb-3
+              h4.mb-0.text-center Ideas, conocimientos, información
+            p Son recursos originados por la inteligencia del hombre, el avance tecnológico y científico.
+    .titulo(style='background-color: #F0BD51').d-inline-block.p-3.mb-4
+      h4.mb-0 Plataformas estratégicas
+    p.mb-5(data-aos='fade-right') La plataforma estratégica es una estructura conceptual sobre la cual se constituye una organización, es parte del plan estratégico de la organización y de los objetivos propuestos por la empresa. Está conformada por misión, visión, objetivos estratégicos, valores y políticas.        
+    .row.justify-content-center.mb-5
+      .col-lg-10
+        ImagenInfografica.color-acento-botones.mb-5
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema1/29.svg', alt='')  
+          .tarjeta.p-3(x="9.3%" y="57%" numero="+" style='background-color: #FAEBCD')
+            p #[b Misión:] es su razón de existir o el propósito general. La manera ideal de conocer cuál es la misión es responder las siguientes preguntas:
+              br
+              br
+              |¿Qué hace la empresa?
+              br
+              |¿Cuál es su propósito?
+              br
+              |¿Para quiénes trabaja?
+              br
+              |¿Cuál es el portafolio de productos o servicios?
+          .tarjeta.p-3(x="29.5%" y="57%" numero="+" style='background-color: #FAEBCD')
+            p #[b Visión:] es la delimitación del objetivo más importante de la organización. Es la imagen de su futuro y ayuda al enfoque empresarial en el mediano y largo plazo, mientras que trabaja en el presente para lograrlo. Se establece respondiendo a las siguientes preguntas:
+              br
+              br
+              |¿Cómo será el proyecto una vez haya madurado? 
+              br
+              |¿Cuáles serán los principales servicios o productos que ofrecerá la empresa? 
+              br
+              |¿Cuándo se esperan lograr los objetivos? 
+              br
+              |¿Cómo puede evolucionar la compañía para adaptarse al consumidor?
+          .tarjeta.p-3(x="50%" y="57%" numero="+" style='background-color: #FAEBCD')
+            p #[b Objetivos estratégicos:] son los fines y estrategias elaboradas por la organización para dirigir a largo plazo. Esto significa que los resultados que una empresa espera cumplir en un tiempo estipulado (por lo general, en un año) se definen a través de las actividades resultantes de la visión e inspiradas en la misión.
+          .tarjeta.p-3(x="70.3%" y="57%" numero="+" style='background-color: #FAEBCD')
+            p #[b Valores:] son aquellos principios, normas o creencias que caracterizan a una organización. Estos pertenecen a la cultura organizacional de la empresa y deben ser precisos para todos los individuos que hagan parte de esta. Deben trazar los valores de acuerdo con lo que se ejecutará en el ámbito laboral, tales como: responsabilidad, puntualidad, transparencia, participación, entre otros.
+          .tarjeta.p-3(x="90.6%" y="57%" numero="+" style='background-color: #FAEBCD')
+            p #[b Políticas:] fijan los reglamentos que conforman el marco normativo de la empresa. Estos deben ir ajustados a los valores de la organización, integrándolos a la cultura organizacional de esta. Su cumplimiento es obligatorio y los pasos para su ejecución deben estar adecuadamente definidos para su práctica cuando sean requeridos. La metodología debe ser clara, sencilla y correspondiente a la realidad empresarial.
+    .titulo(style='background-color: #F0BD51').d-inline-block.p-3.mb-4
+      h4.mb-0 Planeación estratégica de la organización
+    p.mb-5(data-aos='fade-right') La planeación estratégica es un conjunto de acciones por medio de las cuales las organizaciones toman decisiones, establecen plazos y asignan responsabilidades para poder alcanzar sus objetivos. En el siguiente video, se observa la importancia y los pasos para realizar una buena planificación estratégica:
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .titulo(style='background-color: #F7E9E1').d-inline-block.p-3.mb-4
+      h4.mb-0 Herramientas para la ejecución de un plan estratégico
+    p.mb-5(data-aos='fade-right') Existen varios mecanismos y herramientas de gestión que ayudan a organizar y definir las ideas al  momento de planificar, entre ellos están:
+    .tarjeta(style='background-color: #FAF5EA').p-5.mb-5
+      SlyderA(tipo='b')
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 #[i Balanced Scorecard]
+            p Un #[i balanced scorecard], también conocido como un cuadro de mando integral, es un método de planificación estratégica que evalúa el funcionamiento de una organización a partir de cuatro aspectos fundamentales: financiero, clientes, procesos internos, formación y crecimiento. 
+            a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
+              span Ampliar imagen
+              i.fas.fa-search
+            .indicador--click(v-if="mostrarIndicador")
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/30.svg', alt='Texto que describa la imagen').mb-3
+            .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+              h5 Figura 1
+              span Cuadro de mando integral
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Mapa de procesos
+            p “Un mapa de procesos es un diagrama de valor que representa, a manera de inventario gráfico, los procesos de una organización en forma interrelacionada” (ISOTools, 2016). Por lo general, para hacer el mapa de proceso, se basan en la norma de calidad ISO 9001. 
+            a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
+              span Ampliar imagen
+              i.fas.fa-search
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/31.svg', alt='Texto que describa la imagen').mb-3
+            .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+              h5 Figura 2
+              span Mapa de procesos
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Análisis de recursos y capacidades
+            p Es un estudio que detecta el potencial de una empresa y, asimismo, define las ventajas competitivas y establece los recursos y capacidades que posee esta. 
+            a.boton.color-acento-botones.indicador__container(@click="modal3 = true")
+              span Ampliar imagen
+              i.fas.fa-search
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/32.svg', alt='Texto que describa la imagen').mb-3
+            .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+              h5 Figura 3
+              span Fases del análisis de recursos y capacidades
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Análisis FODA
+            p Es un instrumento de análisis donde se evalúan factores internos (fortalezas, debilidades) y factores externos (oportunidades, amenazas) en una organización. Esta herramienta identifica la situación real de la empresa y ayuda a determinar la estrategia a futuro.
+            a.boton.color-acento-botones.indicador__container(@click="modal4 = true")
+              span Ampliar imagen
+              i.fas.fa-search
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/33.svg', alt='Texto que describa la imagen').mb-3
+            .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+              h5 Figura 4
+              span Esquema del análisis FODA
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Análisis PESTEL
+            p Esta herramienta permite el análisis de agentes externos y su afectación en la organización. Se consideran factores políticos, económicos, socioculturales, tecnológicos, ecológicos y legales. 
+            a.boton.color-acento-botones.indicador__container(@click="modal5= true")
+              span Ampliar imagen
+              i.fas.fa-search
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/34.svg', alt='Texto que describa la imagen').mb-3
+            .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+              h5 Figura 5
+              span Matriz de análisis PESTEL
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Análisis de brechas
+            p También llamado análisis GAP, es un formato que se utiliza para comparar el desempeño actual de la empresa y el desempeño esperado por esta. La “brecha” se entiende como la posición real de la compañía y donde espera verse. 
+            a.boton.color-acento-botones.indicador__container(@click="modal6= true")
+              span Ampliar imagen
+              i.fas.fa-search
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/35.svg', alt='Texto que describa la imagen').mb-3
+            .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+              h5 Figura 6
+              span Análisis de brechas
+        .row
+          .col-md-6.mb-4.mb-md-0
+            h4 Análisis de las cinco fuerzas de Porter
+            p Es un modelo estratégico que evalúa las fuerzas competitivas de una empresa o sector, las cuales son: 
+            ul.lista-ul
+              li
+                i.fas.fa-pen-nib
+                | Poder de negociación de los compradores.
+              li
+                i.fas.fa-pen-nib
+                | Poder de negociación de los proveedores.
+              li
+                i.fas.fa-pen-nib
+                | Amenaza de nuevos competidores entrantes.
+              li
+                i.fas.fa-pen-nib
+                | Amenaza de productos sustitutos.
+              li
+                i.fas.fa-pen-nib
+                | Rivalidad entre competidores.
+            a.boton.color-acento-botones.indicador__container(@click="modal7 = true")
+              span Ampliar imagen
+              i.fas.fa-search
+          .col-md-6
+            figure
+              img(src='@/assets/curso/temas/tema1/36.svg', alt='Texto que describa la imagen').mb-3
+            .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+              h5 Figura 7
+              span Análisis de las cinco fuerzas de Porter
+    ModalA(:abrir-modal.sync="modal1")
+      figure
+        img(src='@/assets/curso/temas/tema1/30.svg', alt='')
+    ModalA(:abrir-modal.sync="modal2")
+      figure
+        img(src='@/assets/curso/temas/tema1/31.svg', alt='')
+    ModalA(:abrir-modal.sync="modal3")
+      figure
+        img(src='@/assets/curso/temas/tema1/32.svg', alt='')
+    ModalA(:abrir-modal.sync="modal4")
+      figure
+        img(src='@/assets/curso/temas/tema1/33.svg', alt='')
+    ModalA(:abrir-modal.sync="modal5")
+      figure
+        img(src='@/assets/curso/temas/tema1/34.svg', alt='')
+    ModalA(:abrir-modal.sync="modal6")
+      figure
+        img(src='@/assets/curso/temas/tema1/35.svg', alt='')
+    ModalA(:abrir-modal.sync="modal7")
+      figure
+        img(src='@/assets/curso/temas/tema1/36.svg', alt='')
+    .titulo(style='background-color: #F7E9E1').d-inline-block.p-3.mb-4
+      h4.mb-0 Indicadores de gestión 
+    p.mb-5(data-aos='fade-right') Son mecanismos que evalúan el desempeño y resultados de una organización con respecto a objetivos, responsabilidades y metas, para concretar si está teniendo éxito. Estos indicadores son:
+    .margin-n(style='background-color: #F4F0FF').px-5.py-4
+      .row.justify-content-center.align-items-center
+        .col-lg-5
+          .titulo-sexto.color-acento-contenido(data-aos='fade-right')
+            h5 Figura 8
+            span Indicadores de gestión
+          img(src='@/assets/curso/temas/tema1/37.svg', alt='')
+        .col-lg-7
+          img(src='@/assets/curso/temas/tema1/38.svg', alt='')
+        
 
               
 
@@ -232,6 +458,13 @@ export default {
   name: 'Tema1',
   components: {},
   data: () => ({
+    modal1: false,
+    modal2: false,
+    modal3: false,
+    modal4: false,
+    modal5: false,
+    modal6: false,
+    modal7: false,
     // variables de vue
   }),
   mounted() {
