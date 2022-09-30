@@ -28,9 +28,9 @@
               h3.mb-1 Partes Interesadas #[em Stakeholder]
               p.text-small.mb-0 Como ampliación a este tema, observar el video: “Partes Interesadas Stakeholder”, que se encuentra en el material complementario.
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
-                span Ir al enlace
-                i.fas.fa-link
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=9AtaIAZEu0c" target="_blank")
+                span Ver video
+                i.fas.fa-video
     p.mb-5(data-aos='fade-right') Según la norma ISO 9001:2015, las partes interesadas se dividen en partes internas y externas; del mismo modo, cada parte establece unos actores adecuados para la aplicación del sistema de gestión de calidad, las cuales son:
     .row.justify-content-center.mb-5
       .col-lg-4.mb-lg-0.mb-4

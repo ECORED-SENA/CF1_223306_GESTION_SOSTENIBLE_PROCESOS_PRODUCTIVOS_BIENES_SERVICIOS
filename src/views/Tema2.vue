@@ -29,9 +29,9 @@
               h3.mb-1 ¿Qué es la Responsabilidad Social?
               p.text-small.mb-0 Para saber más sobre la RSE, observe el video: ¿Qué es la Responsabilidad Social?, que se encuentra en el material complementario.
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
-                span Ir al enlace
-                i.fas.fa-link
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=L7SDdGAImsA" target="_blank")
+                span Ver video
+                i.fas.fa-video
     .row.justify-content-center.mb-5
       .col-lg-4.col-3
         img(data-aos='zoom-in')(src='@/assets/curso/temas/tema2/2.svg', alt='')
@@ -87,8 +87,8 @@
               h3.mb-1 La responsabilidad social empresarial y su enfoque ambiental: una visión sostenible a futuro
               p.text-small.mb-0 Para ampliar el tema sobre el enfoque de la RSE, se recomienda leer el artículo “La responsabilidad social empresarial y su enfoque ambiental: una visión sostenible a futuro”, que se encuentra en el material complementario.
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
-                span Ir al enlace
+              a.boton.color-acento-botones(href="http://scielo.sld.cu/scielo.php?script=sci_arttext&pid=S2218-36202016000300023&lng=es&tlng=es" target="_blank")
+                span Ver enlace 
                 i.fas.fa-link
     .row.justify-content-center.mb-5
       .col-lg-8
@@ -174,17 +174,4 @@ export default {
   right: 0
 .bloque-texto-g
   justify-content: flex-start
-.tabla-morada
-  border-top: 0px
-
-  thead
-    tr
-      background-color: $color-acento-contenido
-      color: $white
-  tbody
-    tr:nth-child(odd)
-      background-color: #F6F6F6
-    tr
-      td:first-child
-        font-weight: bold
 </style>

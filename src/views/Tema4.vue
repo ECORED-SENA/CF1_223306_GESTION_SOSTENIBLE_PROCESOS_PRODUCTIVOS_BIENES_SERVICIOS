@@ -46,9 +46,9 @@
               h3.mb-1 El Desarrollo Sostenible y sus pilares fundamentales
               p.text-small.mb-0 Para conocer más sobre este tema, ver el video: “El Desarrollo Sostenible y sus pilares fundamentales”, que se encuentra en el material complementario.
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
-                span Ir al enlace
-                i.fas.fa-link
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=OZlUTG07XFQ" target="_blank")
+                span Ver video
+                i.fas.fa-video
     p.mb-5(data-aos='fade-right') El proceso de conceptualización sobre el término desarrollo sostenible se ha definido por diferentes autores a lo largo de los años; a continuación, se observa la evolución de este concepto y sus principales características: 
     SlyderF.slyder-100.mb-5(columnas="col-lg-6 col-xl-4")
         .tarjeta-avatar

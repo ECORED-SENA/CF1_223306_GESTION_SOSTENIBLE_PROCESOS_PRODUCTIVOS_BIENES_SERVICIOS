@@ -2,13 +2,13 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 20%
+    right: 70%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
     top: 51%
-    right: 30%
+    right: 20%
 
 
 @keyframes float1
@@ -32,3 +32,28 @@
 .slyder-100
   .horizontal-scroll
     align-items: normal !important
+
+.flecha
+  position: absolute
+  display: inline-block
+  top: 10%
+  left: 0
+  &--1
+    left: 22%
+  &--2
+    left: 47%
+  &--3
+    left: 73%
+.tabla-morada
+  border-top: 0px
+
+  thead
+    tr
+      background-color: $color-acento-contenido
+      color: $white
+  tbody
+    tr:nth-child(odd)
+      background-color: #F6F6F6
+    tr
+      td:first-child
+        font-weight: bold

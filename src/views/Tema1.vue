@@ -102,9 +102,9 @@
               h3.mb-1 Qué es el Proceso Administrativo y cuáles son sus etapas?
               p.text-small.mb-0 Para complementar este tema, observe el video: ¿Qué es el Proceso Administrativo y cuáles son sus etapas?, que se encuentra en el material complementario de este componente formativo.
             .col-sm-auto
-              a.boton.color-acento-botones(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
-                span Ir al enlace
-                i.fas.fa-link
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=QqcjI-zZyb8" target="_blank")
+                span Ver video
+                i.fas.fa-video
 
     .titulo(style='background-color: #F0BD51').d-inline-block.p-3.mb-4
       h4.mb-0 La planificación en la organización
