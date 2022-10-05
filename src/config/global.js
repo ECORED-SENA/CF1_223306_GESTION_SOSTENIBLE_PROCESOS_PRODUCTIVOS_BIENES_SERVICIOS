@@ -144,7 +144,7 @@ export default {
       link: 'https://www.youtube.com/watch?v=OZlUTG07XFQ',
     },
     {
-      tema: 'Diagnóstico y técnicas de recolección organizacional.',
+      tema: 'Diagnóstico y técnicas de recolección organizacional',
       referencia:
         'Lifeder Education. (2022) ¿Qué es el Diagnóstico organizacional y para qué sirve? [Video]. YouTube.',
       tipo: 'Video',
@@ -306,7 +306,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'María Natalia Maldonado Delgado ',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
@@ -318,13 +318,13 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Camilo Andres Bolaño Rey',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Mayra Alejandra Alvarez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

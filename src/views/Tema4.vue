@@ -64,7 +64,7 @@
           div(style='background-color: #FFF9ED').p-5.h-100
             p El Desarrollo Sostenible tiene como objetivo mejorar la calidad de vida de las personas, mediante el desarrollo productivo integral, desarrollo social y conservación de los recursos naturales.
               br
-              | #[b Pgdes, 1997.]
+              | #[b Pgdes, 1997]
 
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema4/6.svg' alt='AvatarTop')
@@ -75,7 +75,7 @@
           div(style='background-color: #FFF9ED').p-5.h-100
             p Permite el mejoramiento continuo de la calidad de vida de los habitantes en el ámbito urbano, regional y global, sin que se deteriore su entorno natural. 
               br
-              |#[b Gabaldón, 2006.]
+              |#[b Gabaldón, 2006]
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema4/6.svg' alt='AvatarTop')
           div(style='background-color: #FAD585').p-5.h-100

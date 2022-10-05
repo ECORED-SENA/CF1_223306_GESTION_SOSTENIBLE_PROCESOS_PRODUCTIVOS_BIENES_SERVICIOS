@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 3
       h1 Partes interesadas
-    p.mb-5(data-aos='fade-right') Una parte interesada, o también conocida como “stakeholder”, es cualquier individuo, grupo de interés u organización que puede influir en las labores de una empresa. Por otro lado, una parte interesada puede ser una persona interna o externa de una organización que puede afectar las actividades que desarrolla; pueden estar representadas por los clientes, proveedores, trabajadores, propietarios de una empresa, inversionistas, gobierno, entre otros, como se observa en la siguiente figura.
+    p.mb-5(data-aos='fade-right') Una parte interesada, o también conocida como “#[em stakeholder]”, es cualquier individuo, grupo de interés u organización que puede influir en las labores de una empresa. Por otro lado, una parte interesada puede ser una persona interna o externa de una organización que puede afectar las actividades que desarrolla; pueden estar representadas por los clientes, proveedores, trabajadores, propietarios de una empresa, inversionistas, gobierno, entre otros, como se observa en la siguiente figura.
     .margin-n.p-5.mb-5(style='background-color: #FFF9ED')
       .row.justify-content-center.align-items-center
         .col-lg-5.col-8
@@ -26,7 +26,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3.mb-1 Partes Interesadas #[em Stakeholder]
-              p.text-small.mb-0 Como ampliación a este tema, observar el video: “Partes Interesadas Stakeholder”, que se encuentra en el material complementario.
+              p.text-small.mb-0 Como ampliación a este tema, observar el video: “Partes Interesadas #[em Stakeholder]”, que se encuentra en el material complementario.
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=9AtaIAZEu0c" target="_blank")
                 span Ver video
@@ -76,7 +76,8 @@
             .titutlo.rounded-pill.d-inline-block.p-3.bg-white.mt-5.d-flex.justify-content-center.mb-3
               h4.mb-0.text-center Agentes sociales 
             p Las organizaciones son instituciones sociales que comparten en todo momento con personas, por lo tanto, es esencial promover el respeto e interactuar de forma constante para tener una imagen positiva que los individuos perciben de la organización a nivel corporativo. 
-    p.mb-5(data-aos='fade-right') Un mapeo de stakeholders es una ilustración visual de las personas que pueden afectar en un plan organizacional e identificar cómo están relacionadas. Para su realización, se deben tener en cuenta los siguientes pasos:
+    h3 Metodologías de selección y priorización de partes interesadas.
+    p.mb-5(data-aos='fade-right') Un mapeo de #[em stakeholders] es una ilustración visual de las personas que pueden afectar en un plan organizacional e identificar cómo están relacionadas. Para su realización, se deben tener en cuenta los siguientes pasos:
     TabsA.color-acento-contenido.mb-5
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
@@ -85,7 +86,7 @@
         .row.justify-content-center.mb-5
           .col-md-6.mb-4.mb-md-0
             h4 Identificar a las partes interesadas
-            p  La fase inicial es elaborar un brainstorming o lluvia de ideas, donde se identificará a todas las partes interesadas: organizaciones, grupos o personas que se puedan ver influenciadas en el proyecto, que tienen una afectación de este o algún problema en su éxito.
+            p  La fase inicial es elaborar un #[em brainstorming] o lluvia de ideas, donde se identificará a todas las partes interesadas: organizaciones, grupos o personas que se puedan ver influenciadas en el proyecto, que tienen una afectación de este o algún problema en su éxito.
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema3/7.jpg', alt='Texto que describa la imagen').mb-3
@@ -93,7 +94,7 @@
         .row.justify-content-center.mb-5
           .col-md-6.mb-4.mb-md-0
             h4 Analizar
-            p  En el segundo paso, se fijarán funciones y proyecciones de las partes interesadas, de tal modo que se detectará y especificará qué tan relevantes son los stakeholders hallados y cuál es su grado de influencia en el ejercicio. 
+            p  En el segundo paso, se fijarán funciones y proyecciones de las partes interesadas, de tal modo que se detectará y especificará qué tan relevantes son los #[em stakeholders] hallados y cuál es su grado de influencia en el ejercicio. 
             a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
               span Ampliar imagen
               i.fas.fa-search
@@ -105,7 +106,7 @@
         .row.justify-content-center.mb-5
           .col-md-6.mb-4.mb-md-0
             h4 Priorizar
-            p  Este paso consiste en comprender las necesidades de los stakeholders y cómo se perciben en el proyecto. Por esta razón, es indispensable clasificar los grupos de interés claves y establecer sus acciones comunicacionales primordiales. Cabe destacar que cada rol que tendrá un grupo de interés y su grado de afectación determinarán las actividades que debe asumir. 
+            p  Este paso consiste en comprender las necesidades de los #[em stakeholders] y cómo se perciben en el proyecto. Por esta razón, es indispensable clasificar los grupos de interés claves y establecer sus acciones comunicacionales primordiales. Cabe destacar que cada rol que tendrá un grupo de interés y su grado de afectación determinarán las actividades que debe asumir. 
             a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
               span Ampliar imagen
               i.fas.fa-search

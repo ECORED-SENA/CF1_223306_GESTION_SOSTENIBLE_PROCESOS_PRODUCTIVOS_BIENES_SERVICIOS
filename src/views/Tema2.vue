@@ -40,7 +40,7 @@
             .tarjeta-avatar
               img(src='@/assets/curso/temas/tema2/3.svg' alt='AvatarTop')
               div(style='background-color: #FFF9ED').p-5.h-100
-                p.mt-5 “La Responsabilidad Social en una organización busca gestionar los impactos que se generan, a corto y largo plazo, por el desarrollo de sus actividades económicas. Es por esto que se considera como un modelo de gestión organizacional que interactúa con un sinnúmero de grupos de interés (stakeholders) internos y externos, que busca mitigar el impacto social y medioambiental” #[b ISO 26000, 2010]
+                p.mt-5 “La Responsabilidad Social en una organización busca gestionar los impactos que se generan, a corto y largo plazo, por el desarrollo de sus actividades económicas. Es por esto que se considera como un modelo de gestión organizacional que interactúa con un sinnúmero de grupos de interés (stakeholders) internos y externos, que busca mitigar el impacto social y medioambiental”. #[b ISO 26000, 2010]
             .tarjeta-avatar
               img(src='@/assets/curso/temas/tema2/3.svg' alt='AvatarTop')
               div(style='background-color: #FFF9ED').p-5.h-100
