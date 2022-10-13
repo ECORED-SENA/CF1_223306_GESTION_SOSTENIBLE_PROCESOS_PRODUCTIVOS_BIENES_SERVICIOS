@@ -7,7 +7,7 @@
         span 3
       h1 Partes interesadas
     p.mb-5(data-aos='fade-right') Una parte interesada, o también conocida como “#[em stakeholder]”, es cualquier individuo, grupo de interés u organización que puede influir en las labores de una empresa. Por otro lado, una parte interesada puede ser una persona interna o externa de una organización que puede afectar las actividades que desarrolla; pueden estar representadas por los clientes, proveedores, trabajadores, propietarios de una empresa, inversionistas, gobierno, entre otros, como se observa en la siguiente figura.
-    .margin-n.p-5.mb-5(style='background-color: #FFF9ED')
+    .margin-n.p-5.mb-5(style='background-color: #FFF9ED' data-aos="zoom-in")
       .row.justify-content-center.align-items-center
         .col-lg-5.col-8
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -18,7 +18,7 @@
           img(src='@/assets/curso/temas/tema2/7.svg', alt='')
       hr.border-3
     //TODO agregar el enlace ---------------------------------------------------------
-    .tarjeta.color-primario.p-4.mb-5
+    .tarjeta.color-primario.p-4.mb-5(data-aos="zoom-in")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/temas/tema1/10.svg")
@@ -32,53 +32,53 @@
                 span Ver video
                 i.fas.fa-video
     p.mb-5(data-aos='fade-right') Según la norma ISO 9001:2015, las partes interesadas se dividen en partes internas y externas; del mismo modo, cada parte establece unos actores adecuados para la aplicación del sistema de gestión de calidad, las cuales son:
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-4.mb-lg-0.mb-4
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema3/1.svg' alt='AvatarTop')
-          div(style='background-color: #E2D9FF').p-5.h-100
+          img(src='@/assets/curso/temas/tema3/1.svg' alt='AvatarTop' style='width: 120px')
+          div(style='background-color: #E2D9FF').p-5.h-100.pt-4
             .titutlo.rounded-pill.d-inline-block.p-3.bg-white.mt-5.d-flex.justify-content-center.mb-3
               h4.mb-0.text-center Clientes
             p Las empresas deben ofrecer productos o servicios que cumplan con todos los estándares de calidad y garantías con el propósito de satisfacer las expectativas de los clientes.
       .col-lg-4.mb-lg-0.mb-4
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema3/2.svg' alt='AvatarTop')
-          div(style='background-color: #FAEBCD').p-5.h-100
+          img(src='@/assets/curso/temas/tema3/2.svg' alt='AvatarTop' style='width: 120px')
+          div(style='background-color: #FAEBCD').p-5.h-100.pt-4
             .titutlo.rounded-pill.d-inline-block.p-3.bg-white.mt-5.d-flex.justify-content-center.mb-3
               h4.mb-0.text-center Recursos humanos
             p El desarrollo profesional, seguridad en el trabajo, los planes de carrera y su orientación para lograr una ventaja competitiva deben tomarse en cuenta al momento de definir el entorno de la empresa.
       .col-lg-4.mb-lg-0.mb-4
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema3/3.svg' alt='AvatarTop')
-          div(style='background-color: #E2D9FF').p-5.h-100
+          img(src='@/assets/curso/temas/tema3/3.svg' alt='AvatarTop' style='width: 120px')
+          div(style='background-color: #E2D9FF').p-5.h-100.pt-4
             .titutlo.rounded-pill.d-inline-block.p-3.bg-white.mt-5.d-flex.justify-content-center.mb-3
               h4.mb-0.text-center Accionistas, socios o propietarios
             p Son los encargados de buscar mejora continua en sus procesos, para poder crecer la organización, con el fin de mejorar su rentabilidad y productividad, reducir costos y aumentar los beneficios.
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-4.mb-lg-0.mb-4
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema3/4.svg' alt='AvatarTop')
-          div(style='background-color: #FAEBCD').p-5.h-100
+          img(src='@/assets/curso/temas/tema3/4.svg' alt='AvatarTop' style='width: 120px')
+          div(style='background-color: #FAEBCD').p-5.h-100.pt-4
             .titutlo.rounded-pill.d-inline-block.p-3.bg-white.mt-5.d-flex.justify-content-center.mb-3
               h4.mb-0.text-center Proveedores
             p Es importante mantener la relación con los proveedores, porque proporcionan los materiales que se requieren para el desarrollo de las actividades.
       .col-lg-4.mb-lg-0.mb-4
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema3/5.svg' alt='AvatarTop')
-          div(style='background-color: #E2D9FF').p-5.h-100
+          img(src='@/assets/curso/temas/tema3/5.svg' alt='AvatarTop' style='width: 120px')
+          div(style='background-color: #E2D9FF').p-5.h-100.pt-4
             .titutlo.rounded-pill.d-inline-block.p-3.bg-white.mt-5.d-flex.justify-content-center.mb-3
               h4.mb-0.text-center Competencia
             p Investigar quiénes son sus competidores permitirá la identificación de amenazas y tener una estrategia para la reacción frente a dicha amenaza.
       .col-lg-4.mb-lg-0.mb-4
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema3/6.svg' alt='AvatarTop')
-          div(style='background-color: #FAEBCD').p-5.h-100
+          img(src='@/assets/curso/temas/tema3/6.svg' alt='AvatarTop' style='width: 120px')
+          div(style='background-color: #FAEBCD').p-5.h-100.pt-4
             .titutlo.rounded-pill.d-inline-block.p-3.bg-white.mt-5.d-flex.justify-content-center.mb-3
               h4.mb-0.text-center Agentes sociales 
             p Las organizaciones son instituciones sociales que comparten en todo momento con personas, por lo tanto, es esencial promover el respeto e interactuar de forma constante para tener una imagen positiva que los individuos perciben de la organización a nivel corporativo. 
-    h3 Metodologías de selección y priorización de partes interesadas.
+    h3(data-aos="fade-right") Metodologías de selección y priorización de partes interesadas.
     p.mb-5(data-aos='fade-right') Un mapeo de #[em stakeholders] es una ilustración visual de las personas que pueden afectar en un plan organizacional e identificar cómo están relacionadas. Para su realización, se deben tener en cuenta los siguientes pasos:
-    TabsA.color-acento-contenido.mb-5
+    TabsA.color-acento-contenido.mb-5(data-aos="zoom-in")
       //- .tarjeta debe ir acompañado de una de una de estas clases => 
       //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
       //- estas clases tambien tienen un modificador --borde

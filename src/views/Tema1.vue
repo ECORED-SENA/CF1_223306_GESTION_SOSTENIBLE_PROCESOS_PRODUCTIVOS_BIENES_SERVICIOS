@@ -7,15 +7,15 @@
         span 1
       h1 Procesos administrativos
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4.col-8: img(data-aos='zoom-in')(src='@/assets/curso/temas/tema1/1.png', alt='')
-      .col-lg-8
+      .col-lg-4.col-8(data-aos="fade-right"): img(data-aos='zoom-in')(src='@/assets/curso/temas/tema1/1.png', alt='')
+      .col-lg-8(data-aos="fade-left")
         .cajon-b-editado
           .cajon-b.color-acento-contenido.p-3.mb-5.arriba-derecha
             p.mb-0 Los procesos administrativos están compuestos por una serie de actividades o funciones administrativas que buscan aprovechar al máximo los recursos que tiene una organización y lograr los objetivos trazados de manera eficaz. La importancia de implementar un proceso administrativo en la dirección de una organización permite establecer una ruta a seguir mediante diferentes actividades en periodos determinados, con el fin de alcanzar los objetivos propuestos en la organización; de esta manera, incrementar la eficiencia, para lograr las metas propuestas.
-    .margin-n(style='background-color: #FFF9ED').p-5.mb-5
+    .margin-n(style='background-color: #FFF9ED').p-5.mb-5(data-aos="zoom-in")
       .row.justify-content-center.align-items-center
         .col-lg-8 
-          h4.mb-4 Las principales ventajas que es posible destacar de los procesos administrativos son las siguientes:
+          h5.mb-4 Las principales ventajas que es posible destacar de los procesos administrativos son las siguientes:
           ol.lista-ol--cuadro.lista-ol--separador
             li 
               .lista-ol--cuadro__vineta
@@ -43,11 +43,11 @@
               | Se incrementa la productividad, mejorando el trabajo en equipo.
         .col-lg-4.col-8: img(data-aos='zoom-in')(src='@/assets/curso/temas/tema1/2.svg', alt='')
     p.mb-5(data-aos='fade-right') Por último, cuando se implementa un proceso administrativo, este permite evitar que se presenten dificultades en los esquemas de la dirección de la organización; en consecuencia, esto ayuda a reducir el número de medidas a tomar para el funcionamiento de la organización.
-    .titulo(style='background-color: #F0BD51').d-inline-block.p-3.mb-4
+    .titulo(style='background-color: #F0BD51').d-inline-block.p-3.mb-4(data-aos="fade-right")
       h4.mb-0 Etapas del proceso administrativo
     p.mb-5(data-aos='fade-right') El proceso administrativo está compuesto por cuatro etapas: planificación, organización, dirección y control. Las cuales, a su vez, están organizadas en dos fases:
-    .row.justify-content-center.mb-5
-      .col-lg-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
+      .col-lg-5.mb-lg-0.mb-5
         .tarjetas-icono-up
           .tarjetas-icono-up__icono(style='background-color: #F0BD51')
             .icono
@@ -67,7 +67,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .imagen-info-mod
-          ImagenInfografica.color-acento-botones.mb-5
+          ImagenInfografica.color-acento-botones.mb-5(data-aos="zoom-in")
             template(v-slot:imagen)
               figure
                 img(src='@/assets/curso/temas/tema1/5.svg', alt='Texto que describa la imagen')
@@ -92,7 +92,7 @@
 
 
     //TODO agregar el enlace ---------------------------------------------------------
-    .tarjeta.color-primario.p-4.mb-5
+    .tarjeta.color-primario.p-4.mb-5(data-aos="zoom-in")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/temas/tema1/10.svg")
@@ -106,10 +106,10 @@
                 span Ver video
                 i.fas.fa-video
 
-    .titulo(style='background-color: #F0BD51').d-inline-block.p-3.mb-4
+    .titulo(style='background-color: #F0BD51').d-inline-block.p-3.mb-4(data-aos="fade-right")
       h4.mb-0 La planificación en la organización
     p.mb-5(data-aos='fade-right') Es el proceso en el que una empresa u organización planifica sus actividades diarias. Disponer de este mecanismo les permite a las organizaciones alcanzar los objetivos establecidos, de una manera estructurada, eficaz y centrada en la obtención de resultados. Existen cuatro tipos de planificación organizacional:
-    TabsB.color-acento-contenido.mb-5
+    TabsB.color-acento-contenido.mb-5(data-aos="zoom-in")
       .py-4.py-md-5(titulo="Planificación organizacional estratégica" :icono="require('@/assets/curso/temas/tema1/11.svg')")
         .row.justify-content-center
           .col-md-6.mb-4.mb-md-0
@@ -155,12 +155,12 @@
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema1/15.jpg', alt='Texto que describa la imagen' style='border-radius: 20px ')
-    .titulo(style='background-color: #F0BD51').d-inline-block.p-3.mb-4
+    .titulo(style='background-color: #F0BD51').d-inline-block.p-3.mb-4(data-aos="fade-right")
       h4.mb-0 Características y elementos de la organización
     p.mb-5(data-aos='fade-right') Una organización se define como un conjunto de individuos que cooperan entre sí para alcanzar determinados objetivos y metas. Según Max Weber (1922), una organización es: #[b “un grupo de personas que se asocian con el propósito de lograr un objetivo y que está direccionado a través de reglas y órdenes que se dan mediante un jefe”.] A continuación, conozca las características y elementos de la organización:
     .margin-n(style='background-color: #FFF9ED').p-5.mb-5
       .row.justify-content-center.align-items-end.mb-5
-        .col-lg-9
+        .col-lg-9(data-aos="fade-right")
           .row.justify-content-center.mb-2.g-0
             .col-lg-2
               div(style='background-color: #F0BD51').p-4.h-100.d-flex.align-items-center
@@ -210,9 +210,9 @@
             .col-lg-10
               div(style='background-color: #FAEBCD').p-5.h-100
                 p.mb-0 #[b Persiguen la eficiencia.] Todos los recursos deben ser eficientes. Es decir, obtienen un máximo rendimiento, en relación con calidad y cantidad, con un menor costo o gasto de recursos. 
-        .col-lg-3: img.d-none.d-lg-block(src='@/assets/curso/temas/tema1/22.svg', alt='')  
+        .col-lg-3(data-aos="fade-left"): img.d-none.d-lg-block(src='@/assets/curso/temas/tema1/22.svg', alt='')  
       p.mb-5(data-aos='fade-right') Los elementos de una organización son los recursos que requiere para ejecutar sus actividades y lograr sus metas. 
-      SlyderF.slyder-100.mb-5(columnas="col-lg-6 col-xl-4")
+      SlyderF.slyder-100.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="zoom-in")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema1/23.svg' alt='AvatarTop')
           div(style='background-color: #EF8B53').p-5.h-100
@@ -249,12 +249,12 @@
             .titutlo.rounded-pill.d-inline-block.p-3.bg-white.mt-5.d-flex.justify-content-center.mb-3
               h4.mb-0.text-center Ideas, conocimientos, información
             p Son recursos originados por la inteligencia del hombre, el avance tecnológico y científico.
-    .titulo(style='background-color: #F0BD51').d-inline-block.p-3.mb-4
+    .titulo(style='background-color: #F0BD51').d-inline-block.p-3.mb-4(data-aos="fade-right")
       h4.mb-0 Plataformas estratégicas
     p.mb-5(data-aos='fade-right') La plataforma estratégica es una estructura conceptual sobre la cual se constituye una organización, es parte del plan estratégico de la organización y de los objetivos propuestos por la empresa. Está conformada por misión, visión, objetivos estratégicos, valores y políticas.        
     .row.justify-content-center.mb-5
       .col-lg-10
-        ImagenInfografica.color-acento-botones.mb-5
+        ImagenInfografica.modales-w.color-acento-botones.mb-5(data-aos="zoom-in")
           template(v-slot:imagen)
             figure
               img(src='@/assets/curso/temas/tema1/29.svg', alt='')  
@@ -286,98 +286,98 @@
             p #[b Valores:] son aquellos principios, normas o creencias que caracterizan a una organización. Estos pertenecen a la cultura organizacional de la empresa y deben ser precisos para todos los individuos que hagan parte de esta. Deben trazar los valores de acuerdo con lo que se ejecutará en el ámbito laboral, tales como: responsabilidad, puntualidad, transparencia, participación, entre otros.
           .tarjeta.p-3(x="90.6%" y="57%" numero="+" style='background-color: #FAEBCD')
             p #[b Políticas:] fijan los reglamentos que conforman el marco normativo de la empresa. Estos deben ir ajustados a los valores de la organización, integrándolos a la cultura organizacional de esta. Su cumplimiento es obligatorio y los pasos para su ejecución deben estar adecuadamente definidos para su práctica cuando sean requeridos. La metodología debe ser clara, sencilla y correspondiente a la realidad empresarial.
-    .titulo(style='background-color: #F0BD51').d-inline-block.p-3.mb-4
+    .titulo(style='background-color: #F0BD51').d-inline-block.p-3.mb-4(data-aos="fade-right")
       h4.mb-0 Planeación estratégica de la organización
     p.mb-5(data-aos='fade-right') La planeación estratégica es un conjunto de acciones por medio de las cuales las organizaciones toman decisiones, establecen plazos y asignan responsabilidades para poder alcanzar sus objetivos. En el siguiente video, se observa la importancia y los pasos para realizar una buena planificación estratégica:
-    figure.mb-5
+    figure.mb-5(data-aos="zoom-in")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-    .titulo(style='background-color: #F7E9E1').d-inline-block.p-3.mb-4
+    .titulo(style='background-color: #F7E9E1').d-inline-block.p-3.mb-4(data-aos="fade-right")
       h4.mb-0 Herramientas para la ejecución de un plan estratégico
     p.mb-5(data-aos='fade-right') Existen varios mecanismos y herramientas de gestión que ayudan a organizar y definir las ideas al  momento de planificar, entre ellos están:
-    .tarjeta(style='background-color: #FAF5EA').p-5.mb-5
+    .tarjeta(style='background-color: #FAF5EA').p-5.mb-5(data-aos="zoom-in")
       SlyderA(tipo='b')
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0.order-lg-1.order-2
             h4 #[i Balanced Scorecard]
             p Un #[i balanced scorecard], también conocido como un cuadro de mando integral, es un método de planificación estratégica que evalúa el funcionamiento de una organización a partir de cuatro aspectos fundamentales: financiero, clientes, procesos internos, formación y crecimiento. 
             a.boton.color-acento-botones.indicador__container(@click="modal1 = true")
               span Ampliar imagen
               i.fas.fa-search
             .indicador--click(v-if="mostrarIndicador")
-          .col-md-6
+          .col-lg-6.order-lg-2.order-1
             figure
               img(src='@/assets/curso/temas/tema1/30.svg', alt='Texto que describa la imagen').mb-3
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               h5 Figura 1
               span Cuadro de mando integral
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0.order-lg-1.order-2
             h4 Mapa de procesos
             p “Un mapa de procesos es un diagrama de valor que representa, a manera de inventario gráfico, los procesos de una organización en forma interrelacionada” (ISOTools, 2016). Por lo general, para hacer el mapa de proceso, se basan en la norma de calidad ISO 9001. 
             a.boton.color-acento-botones.indicador__container(@click="modal2 = true")
               span Ampliar imagen
               i.fas.fa-search
-          .col-md-6
+          .col-lg-6.order-lg-2.order-1
             figure
               img(src='@/assets/curso/temas/tema1/31.svg', alt='Texto que describa la imagen').mb-3
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               h5 Figura 2
               span Mapa de procesos
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0.order-lg-1.order-2
             h4 Análisis de recursos y capacidades
             p Es un estudio que detecta el potencial de una empresa y, asimismo, define las ventajas competitivas y establece los recursos y capacidades que posee esta. 
             a.boton.color-acento-botones.indicador__container(@click="modal3 = true")
               span Ampliar imagen
               i.fas.fa-search
-          .col-md-6
+          .col-lg-6.order-lg-2.order-1
             figure
               img(src='@/assets/curso/temas/tema1/32.svg', alt='Texto que describa la imagen').mb-3
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               h5 Figura 3
               span Fases del análisis de recursos y capacidades
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0.order-lg-1.order-2
             h4 Análisis FODA
             p Es un instrumento de análisis donde se evalúan factores internos (fortalezas, debilidades) y factores externos (oportunidades, amenazas) en una organización. Esta herramienta identifica la situación real de la empresa y ayuda a determinar la estrategia a futuro.
             a.boton.color-acento-botones.indicador__container(@click="modal4 = true")
               span Ampliar imagen
               i.fas.fa-search
-          .col-md-6
+          .col-lg-6.order-lg-2.order-1
             figure
               img(src='@/assets/curso/temas/tema1/33.svg', alt='Texto que describa la imagen').mb-3
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               h5 Figura 4
               span Esquema del análisis FODA
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0.order-lg-1.order-2
             h4 Análisis PESTEL
             p Esta herramienta permite el análisis de agentes externos y su afectación en la organización. Se consideran factores políticos, económicos, socioculturales, tecnológicos, ecológicos y legales. 
             a.boton.color-acento-botones.indicador__container(@click="modal5= true")
               span Ampliar imagen
               i.fas.fa-search
-          .col-md-6
+          .col-lg-6.order-lg-2.order-1
             figure
               img(src='@/assets/curso/temas/tema1/34.svg', alt='Texto que describa la imagen').mb-3
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               h5 Figura 5
               span Matriz de análisis PESTEL
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0.order-lg-1.order-2
             h4 Análisis de brechas
             p También llamado análisis GAP, es un formato que se utiliza para comparar el desempeño actual de la empresa y el desempeño esperado por esta. La “brecha” se entiende como la posición real de la compañía y donde espera verse. 
             a.boton.color-acento-botones.indicador__container(@click="modal6= true")
               span Ampliar imagen
               i.fas.fa-search
-          .col-md-6
+          .col-lg-6.order-lg-2.order-1
             figure
               img(src='@/assets/curso/temas/tema1/35.svg', alt='Texto que describa la imagen').mb-3
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
               h5 Figura 6
               span Análisis de brechas
         .row
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6.mb-4.mb-md-0.order-lg-1.order-2
             h4 Análisis de las cinco fuerzas de Porter
             p Es un modelo estratégico que evalúa las fuerzas competitivas de una empresa o sector, las cuales son: 
             ul.lista-ul
@@ -399,7 +399,7 @@
             a.boton.color-acento-botones.indicador__container(@click="modal7 = true")
               span Ampliar imagen
               i.fas.fa-search
-          .col-md-6
+          .col-lg-6.order-lg-2.order-1
             figure
               img(src='@/assets/curso/temas/tema1/36.svg', alt='Texto que describa la imagen').mb-3
             .titulo-sexto.color-acento-contenido(data-aos='fade-right')
@@ -426,10 +426,10 @@
     ModalA(:abrir-modal.sync="modal7")
       figure
         img(src='@/assets/curso/temas/tema1/36.svg', alt='')
-    .titulo(style='background-color: #F7E9E1').d-inline-block.p-3.mb-4
+    .titulo(style='background-color: #F7E9E1').d-inline-block.p-3.mb-4(data-aos="fade-right")
       h4.mb-0 Indicadores de gestión 
     p.mb-5(data-aos='fade-right') Son mecanismos que evalúan el desempeño y resultados de una organización con respecto a objetivos, responsabilidades y metas, para concretar si está teniendo éxito. Estos indicadores son:
-    .margin-n(style='background-color: #F4F0FF').px-5.py-4
+    .margin-n(style='background-color: #F4F0FF' data-aos="zoom-in").px-5.py-4
       .row.justify-content-center.align-items-center
         .col-lg-5
           .titulo-sexto.color-acento-contenido(data-aos='fade-right')

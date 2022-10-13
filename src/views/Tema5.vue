@@ -6,8 +6,8 @@
       .titulo-principal__numero
         span 5
       h1 Diagnóstico y técnicas de recolección organizacional
-    .cajon-b-editado
-      .cajon-b.color-acento-contenido.p-3
+    .cajon-b-editado(data-aos="zoom-in")
+      .cajon-b.color-primario.p-3.color-claro
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-1.col-4: img(src='@/assets/curso/temas/tema5/1.svg', alt='')
           .col-lg-11
@@ -16,7 +16,7 @@
               br
               | #[b Para desarrollar un diagnóstico organizacional, se deben tener en cuenta los siguientes conceptos claves:]
     .row.justify-content-center.mb-5(data-aos="zoom-in")
-      .col-lg-4
+      .col-lg-4.mb-lg-0.mb-3x
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/2.jpg')})`}")
@@ -70,7 +70,7 @@
                 .titutlo.rounded-pill.d-inline-block.p-3.bg-white.mt-5.d-flex.justify-content-center.mb-3
                   h4.mb-0.text-center 04. Evaluación
                 p Calificar las labores de los cambios contemplados.
-    .margin-n(style='background-color: #FFF9ED').p-5.mb-5
+    .margin-n(style='background-color: #FFF9ED' data-aos="zoom-in").p-5.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-8 
           h4.mb-4 Y  las siguientes son las características del desarrollo sostenible:
@@ -100,7 +100,7 @@
     p.mb-5(data-aos='fade-right') Los elementos que conforman el diagnóstico organizacional se dividen en 3 etapas importantes:
     .row.justify-content-center.mb-5
       .col-lg-10
-        PasosA.color-acento-contenido.mb-5(tipo="n")
+        PasosA.color-acento-contenido.mb-5(tipo="n" data-aos="zoom-in")
           .row
             .col-md-8.mb-4.mb-md-0
               h4 A. Generación de información
@@ -133,9 +133,9 @@
               figure
                 img(src='@/assets/curso/temas/tema5/11.jpg', alt='Texto que describa la imagen')
     p.mb-5(data-aos='fade-right') Existen dos tipos de diagnóstico organizacional: el funcional y la cultura; cada uno maneja sus objetivos, metodología e instrumentos:
-    .titulo(style='background-color: #F0BD51').d-inline-block.p-3.mb-4
+    .titulo(style='background-color: #F0BD51' data-aos="fade-right").d-inline-block.p-3.mb-4
       h4.mb-0 Diagnóstico funcional
-    .cajon-b-editado
+    .cajon-b-editado(data-aos="zoom-in")
       .cajon-b.color-acento-contenido.arriba-derecha.p-3
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-11
@@ -144,7 +144,7 @@
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 2
       span Definición
-    .tabla-a.tabla-morada.mb-5
+    .tabla-a.tabla-morada.mb-5(data-aos="zoom-in")
       table
         thead
           tr
@@ -170,7 +170,7 @@
           tr
             td Entrevista grupal
             td Se usa para ciertos colaboradores representativos de la organización, para ser entrevistados como grupo; se enfoca en componentes cruciales de la comunicación organizacional.
-    .titulo(style='background-color: #F0BD51').d-inline-block.p-3.mb-4
+    .titulo(style='background-color: #F0BD51' data-aos="fade-right").d-inline-block.p-3.mb-4
       h4.mb-0 Diagnóstico cultural
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8 
@@ -178,8 +178,8 @@
           br
           br
           |Los valores y principios claves de la organización se definen mediante los ámbitos que se aprecien; por esta razón, si hay más manifestaciones culturales de estudio, serán mejores los resultados. Estas manifestaciones se categorizan de la siguiente manera:
-      .col-lg-4.col-8: img(src='@/assets/curso/temas/tema5/13.png', alt='')
-    .margin-n(style='background-color: #F5F2FF').p-5.mb-5
+      .col-lg-4.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema5/13.png', alt='')
+    .margin-n(style='background-color: #F5F2FF' data-aos="zoom-in").p-5.mb-5
       .row.justify-content-center.align-items-center.mb-5
         .col-lg-5.col-8: img(src='@/assets/curso/temas/tema5/14.svg', alt='')
         .col-lg-7
@@ -215,9 +215,9 @@
               div(style='background-color: #FAEBCD').p-4.h-100
                 h4.mb-0 Materiales
                 p.mb-0 Tecnología, instalaciones, mobiliario y equipo.
-    .margin-n(style='background-color: #583CB6').p-4.mb-5
+    .margin-n(style='background-color: #583CB6' data-aos="zoom-in").p-5.p-lg-4.mb-5
       .row.justify-content-center
-        .col-lg-2.col-6
+        .col-lg-2.col-4
           .imagen-absolute.position-relative
             .imagen-absolute__img
               img(src='@/assets/curso/temas/tema4/21.svg', alt='Texto que describa la imagen')
@@ -226,7 +226,7 @@
     .titulo-sexto.color-acento-contenido(data-aos='fade-right')
       h5 Tabla 3
       span Técnicas diagnóstico cultural
-    .tabla-a.tabla-morada.mb-5
+    .tabla-a.tabla-morada.mb-5(data-aos="zoom-in")
       table
         thead
           tr
@@ -264,7 +264,7 @@
             td Cuantitativo
             td La información que se recolecte a través de esta técnica se utilizará para medir de manera cuantitativa, con el propósito de detectar y descubrir variables de conflictos que se clasifican parciales o imprecisos. 
     //TODO agregar el enlace ---------------------------------------------------------
-    .tarjeta.color-primario.p-4.mb-5
+    .tarjeta.color-primario.p-4.mb-5(data-aos="zoom-in")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/temas/tema1/10.svg")

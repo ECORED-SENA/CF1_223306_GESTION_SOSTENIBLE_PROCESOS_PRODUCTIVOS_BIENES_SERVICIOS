@@ -7,7 +7,7 @@
         span 4
       h1 Desarrollo sostenible
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6
+      .col-lg-6(data-aos="fade-right")
         .cajon-b-editado
           .cajon-b.color-acento-contenido.p-3.mb-5.arriba-izquierda
             p.mb-0 El desarrollo sostenible es aquel desarrollo que consume los recursos de una manera amigable con el medio ambiente, esto se refiere a realizar una adecuada gestión de los recursos para que sigan existiendo estos en el presente y futuro. Este concepto fue propuesto por la ex Primera Ministra de Noruega, Gro Harlem Brundtland, en el que expresa que el desarrollo sostenible debe satisfacer las necesidades actuales sin comprometer las de las generaciones futuras. 
@@ -16,27 +16,27 @@
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-4.mb-lg-0.mb-3
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema4/2.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema4/2.svg' alt='AvatarTop' style='width: 120px')
           .tarjeta(style='background-color: #FAEBCD').p-5.h-100.w-100
-            p.mt-5 #[b El aspecto económico:] busca garantizar la generación de empleo con salarios justos y así reducir la pobreza. 
+            p.mt-2 #[b El aspecto económico:] busca garantizar la generación de empleo con salarios justos y así reducir la pobreza. 
       .col-lg-4.mb-lg-0.mb-3
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema4/3.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema4/3.svg' alt='AvatarTop' style='width: 120px')
           .tarjeta(style='background-color: #FAEBCD').p-5.h-100.w-100
-            p.mt-5 #[b El aspecto ambiental:] busca mitigar los impactos en el medio ambiente generados por las actividades económicas de las organizaciones y de los seres humanos.
+            p.mt-2 #[b El aspecto ambiental:] busca mitigar los impactos en el medio ambiente generados por las actividades económicas de las organizaciones y de los seres humanos.
       .col-lg-4
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema4/4.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema4/4.svg' alt='AvatarTop' style='width: 120px')
           .tarjeta(style='background-color: #FAEBCD').p-5.h-100.w-100
-            p.mt-5 #[b El aspecto social:] busca garantizar el bienestar de todos los colaboradores de una organización y, asimismo, el de una comunidad. 
+            p.mt-2 #[b El aspecto social:] busca garantizar el bienestar de todos los colaboradores de una organización y, asimismo, el de una comunidad. 
     p.mb-5(data-aos='fade-right') Por otro lado, la agenda 2030 para el desarrollo sostenible estableció una hoja de ruta, por lo que propuso 17 objetivos de Desarrollo Sostenible que buscan lograr generar un crecimiento de las economías, equilibrio con relación al medio ambiente y progreso social.  En la siguiente figura, puede conocer los ODS.
 
-    .margin-n(style='background-color: #FFF9ED').p-5.mb-5
+    .margin-n(style='background-color: #FFF9ED').p-5.mb-5(data-aos="zoom-in")
       .row.justify-content-center.mb-5
         .col-lg-10
           img(src='@/assets/curso/temas/tema4/5.jpg', alt='')
     //TODO agregar el enlace ---------------------------------------------------------
-    .tarjeta.color-primario.p-4.mb-5
+    .tarjeta.color-primario.p-4.mb-5(data-aos="zoom-in")
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/temas/tema1/10.svg")
@@ -50,39 +50,39 @@
                 span Ver video
                 i.fas.fa-video
     p.mb-5(data-aos='fade-right') El proceso de conceptualización sobre el término desarrollo sostenible se ha definido por diferentes autores a lo largo de los años; a continuación, se observa la evolución de este concepto y sus principales características: 
-    SlyderF.slyder-100.mb-5(columnas="col-lg-6 col-xl-4")
+    SlyderF.slyder-100.mb-5(columnas="col-lg-6 col-xl-4" data-aos="zoom-in")
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema4/6.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema4/6.svg' alt='AvatarTop' style='width: 120px')
           div(style='background-color: #FFF9ED').p-5.h-100
             p Define el Desarrollo Sostenible como la forma para garantizar la satisfacción de las necesidades humanas actuales y futuras mediante la conservación de los recursos naturales, orientados a mitigar el impacto del medio ambiente. #[b FAO, 1898]
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema4/6.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema4/6.svg' alt='AvatarTop' style='width: 120px')
           div(style='background-color: #FAD585').p-5.h-100
             p Es un proceso progresivo de participación de la ciudadanía frente a la calidad de vida del ser, en el que se debe dar prioridad al crecimiento económico con equidad social, transformación de los métodos de producción y su consumo, equilibrando con la naturaleza. #[b Alides, 1994-]
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema4/6.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema4/6.svg' alt='AvatarTop' style='width: 120px')
           div(style='background-color: #FFF9ED').p-5.h-100
             p El Desarrollo Sostenible tiene como objetivo mejorar la calidad de vida de las personas, mediante el desarrollo productivo integral, desarrollo social y conservación de los recursos naturales.
               br
               | #[b Pgdes, 1997]
 
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema4/6.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema4/6.svg' alt='AvatarTop' style='width: 120px')
           div(style='background-color: #FAD585').p-5.h-100
             p Es una estrategia política que busca mejorar las condiciones de la población partiendo de la gestión económica, social y tecnocientífica. #[b Fergusson y Lanz (2001)]
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema4/6.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema4/6.svg' alt='AvatarTop' style='width: 120px')
           div(style='background-color: #FFF9ED').p-5.h-100
             p Permite el mejoramiento continuo de la calidad de vida de los habitantes en el ámbito urbano, regional y global, sin que se deteriore su entorno natural. 
               br
               |#[b Gabaldón, 2006]
         .tarjeta-avatar
-          img(src='@/assets/curso/temas/tema4/6.svg' alt='AvatarTop')
+          img(src='@/assets/curso/temas/tema4/6.svg' alt='AvatarTop' style='width: 120px')
           div(style='background-color: #FAD585').p-5.h-100
             p Procura el desarrollo equitativo y bienestar social mediante la conservación de los recursos naturales y el equilibrio ecológico, preservando los recursos para las generaciones futuras. #[b Ley Orgánica del Ambiente de la RBV Gaceta Oficial] 
               br
               |#[b N° 5.833(22-12-2006)]
-    .margin-n(style='background-color: #FFF9ED').p-5.mb-5
+    .margin-n(style='background-color: #FFF9ED' data-aos="zoom-in").p-5.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-8 
           h4.mb-4 Y  las siguientes son las características del desarrollo sostenible:
@@ -126,9 +126,9 @@
                 span.text-bold 8
               | Destaca la importancia de cuidar la naturaleza para el bienestar de la sociedad.
         .col-lg-4.col-8: img(src='@/assets/curso/temas/tema4/7.svg', alt='')
-    .titulo(style='background-color: #F0BD51').d-inline-block.p-3.mb-4
+    .titulo(style='background-color: #F0BD51' data-aos="zoom-in").d-inline-block.p-3.mb-4
       h4.mb-0 Estrategias e indicadores de responsabilidad social
-    TabsB.color-acento-contenido.mb-5
+    TabsB.color-acento-contenido.mb-5(data-aos="zoom-in")
       .py-4.py-md-5(titulo="Diseñar programas RSE originales" :icono="require('@/assets/curso/temas/tema1/11.svg')")
         .row.justify-content-center
           .col-md-6.mb-4.mb-md-0
@@ -156,27 +156,27 @@
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema4/10.png', alt='Texto que describa la imagen' style='border-radius: 20px ')
-    .titulo(style='background-color: #F0BD51').d-inline-block.p-3.mb-4
+    .titulo(style='background-color: #F0BD51' data-aos="fade-right").d-inline-block.p-3.mb-4
       h4.mb-0 Las empresas deben diseñar programas de RSE, pero también fomentarla
     p.mb-5(data-aos='fade-right') Demostrar con acciones a la sociedad y empresas los beneficios de una gestión responsable, concientizar y enseñar a otros sectores sociales sobre la RSE es impulsar estos programas. Algunos puntos clave para fomentar los programas de responsabilidad social son:
     .row.justify-content-center.mb-5
-      .col-lg-4.col-8: img(src='@/assets/curso/temas/tema4/11.svg', alt='')
-      .col-lg-8
+      .col-lg-4.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema4/11.svg', alt='')
+      .col-lg-8(data-aos="fade-left")
         LineaTiempoD.color-acento-contenido
           p.text-small(numero="1" titulo="Diseñar programas de RSE con objetivos a mediano y largo plazo") La mayoría de las organizaciones desarrollan programas de RSE a corto plazo, que suelen ser menos eficaces y, en muchas ocasiones, no están relacionados con sus operaciones. Estas orientaciones reflejan medios oportunistas o mercadeo social, pero no un compromiso con la sociedad. Una misión real de la RSE establece objetivos sociales claros a mediano o largo plazo.
           p.text-small(numero="2" titulo="Generar una reputación social") Las empresas se enfocan en mostrar una buena imagen corporativa y no una reputación, a pesar de que la imagen corporativa va ligada al reconocimiento y participación de las actividades de mercadeo y publicidad de la organización. Para crear una imagen corporativa y generar una reputación social, es importante tener una gestión responsable a nivel interno y externo en la organización.
           p.text-small(numero="3" titulo="Proporcionar las acciones de RSE internas con las externas") Generalmente, conversar con los colaboradores de una organización acerca de la RSE es decepcionante, al escuchar que no practican de manera interna lo que impulsan afuera de esta. Si se implementa RSE en las empresas, se debe hacer de forma tanto interna como externa, para que las reconozcan como socialmente responsables.
-    .cajon-b-editado
+    .cajon-b-editado(data-aos="zoom-in")
       .cajon-b.color-primario.p-3.arriba-derecha
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-11
             p.mb-0 Para que una compañía ejecute correctamente la RSE y ejerza su papel corporativo desde el punto de vista consecuente e integral, es fundamental que sea integrado en procesos de gestión como estrategias de negocios, para ello, es conveniente elaborar instrumentos acerados para el apoyo y búsqueda de acciones de responsabilidad social en la organización. Estos indicadores son:
           .col-lg-1.col-4: img(src='@/assets/curso/temas/tema4/12.svg', alt='')
-    .margin-n(style='backgroud-color: #F5F2FF').mb-5
+    .margin-n(style='backgroud-color: #F5F2FF' data-aos="zoom-in").mb-5
       img(src='@/assets/curso/temas/tema4/13.svg', alt='')
-    .titulo(style='background-color: #F0BD51').d-inline-block.p-3.mb-4
+    .titulo(style='background-color: #F0BD51' data-aos="fade-right").d-inline-block.p-3.mb-4
       h4.mb-0 Estrategias y ventajas competitivas
-    .cajon-b-editado
+    .cajon-b-editado(data-aos="zoom-in")
       .cajon-b.color-acento-contenido.p-3
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-1.col-4: img(src='@/assets/curso/temas/tema4/14.svg', alt='')
@@ -185,7 +185,7 @@
               br
               br
               |Adicionalmente, Porter (2015) plantea #[b tres estrategias para adoptar en cualquier organización y alcanzar ventajas competitivas sostenibles:]
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-4.mb-lg-0.mb-3
         div(style='background-color: #F0BD51').p-5.h-100
             img(src='@/assets/curso/temas/tema4/15.jpg', alt='' style='border-radius: 20px ').mb-3
@@ -210,10 +210,10 @@
             .titutlo.rounded-pill.d-inline-block.p-3.bg-white.mt-5.d-flex.justify-content-center.mb-3
               h4.mb-0.text-center El enfoque
             p Por último, es una estrategia que se especializa en un segmento de mercado en especial para ofrecer un producto idóneo, pedido por los deseos y necesidades de este nicho.
-    .titulo(style='background-color: #F0BD51').d-inline-block.p-3.mb-4
+    .titulo(style='background-color: #F0BD51' data-aos="fade-right").d-inline-block.p-3.mb-4
       h4.mb-0 Tipos de indicadores y aplicación
     p.mb-5(data-aos='fade-right') Los indicadores de sostenibilidad se categorizan de la siguiente forma: económicos, sociales y ambientales. Amplíe la información sobre cada uno de ellos:
-    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+    AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris" data-aos="zoom-in")
       .row(titulo="Sostenibilidad económica").px-4
         p.mb-5 Se refiere a la capacidad para que las empresas gestionen la existencia de sus recursos y obtengan rendimientos económicos de manera responsable en un periodo prolongado. Un caso de sostenibilidad económica es el Grupo Argos, que ha adaptado distintos proyectos de sostenibilidad y ha recibido varios reconocimientos por su compromiso. Una de las acciones que ha implementado es el Programa de Sacos Verdes, que hace referencia a la recolección de sacos ya utilizados y luego entregarlos a empresas que llevarán a cabo su aprovechamiento a través de logística inversa.
         .col-md-5
@@ -347,9 +347,9 @@
             li
               i.fas.fa-check-circle
               | Necesidad de transporte (medido en emisiones de CO2)
-    .margin-n(style='background-color: #583CB6').p-4
+    .margin-n(style='background-color: #583CB6' data-aos="zoom-in").p-5.p-lg-4
       .row.justify-content-center
-        .col-lg-2.col-6
+        .col-lg-2.col-4
           .imagen-absolute.position-relative
             .imagen-absolute__img
               img(src='@/assets/curso/temas/tema4/21.svg', alt='Texto que describa la imagen')
