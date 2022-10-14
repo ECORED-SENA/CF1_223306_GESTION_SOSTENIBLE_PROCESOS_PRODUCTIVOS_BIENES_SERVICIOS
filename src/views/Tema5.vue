@@ -16,7 +16,7 @@
               br
               | #[b Para desarrollar un diagnóstico organizacional, se deben tener en cuenta los siguientes conceptos claves:]
     .row.justify-content-center.mb-5(data-aos="zoom-in")
-      .col-lg-4.mb-lg-0.mb-3x
+      .col-lg-4.mb-lg-0.mb-4
         .tarjeta.tarjeta-flip.color-primario(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema5/2.jpg')})`}")
