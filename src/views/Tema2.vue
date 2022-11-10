@@ -38,7 +38,7 @@
             .tarjeta-avatar
               img(src='@/assets/curso/temas/tema2/3.svg' alt='AvatarTop' style='width: 120px')
               div(style='background-color: #FFF9ED').p-5.h-100
-                p.mt-3 “La Responsabilidad Social en una organización busca gestionar los impactos que se generan, a corto y largo plazo, por el desarrollo de sus actividades económicas. Es por esto que se considera como un modelo de gestión organizacional que interactúa con un sinnúmero de grupos de interés (stakeholders) internos y externos, que busca mitigar el impacto social y medioambiental”. #[b ISO 26000, 2010]
+                p.mt-3 “La Responsabilidad Social en una organización busca gestionar los impactos que se generan, a corto y largo plazo, por el desarrollo de sus actividades económicas. Es por esto que se considera como un modelo de gestión organizacional que interactúa con un sinnúmero de grupos de interés (#[em stakeholders]) internos y externos, que busca mitigar el impacto social y medioambiental”. #[b ISO 26000, 2010]
             .tarjeta-avatar
               img(src='@/assets/curso/temas/tema2/3.svg' alt='AvatarTop' style='width: 120px')
               div(style='background-color: #FFF9ED').p-5.h-100
@@ -134,7 +134,7 @@
             td Su objetivo es que las organizaciones puedan evaluar el desarrollo de las estrategias de la organización mediante indicadores ETHOS, frente a los temas de RSE.
           tr
             td Norma SA 8000
-            td Su principal objetivo es vincular la política de responsabilidad social de la empresa con la alta dirección; no contempla el relacionamiento con los stakeholders externos.
+            td Su principal objetivo es vincular la política de responsabilidad social de la empresa con la alta dirección; no contempla el relacionamiento con los #[em stakeholders] externos.
           tr
             td Guía del Pacto Mundial
             td Establece los principios universales necesarios que debe integrar la organización en las actividades empresariales en cuatro ejes fundamentales: derechos humanos, laborales, medio ambiente y anticorrupción.

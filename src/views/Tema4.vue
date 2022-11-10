@@ -29,7 +29,7 @@
           img(src='@/assets/curso/temas/tema4/4.svg' alt='AvatarTop' style='width: 120px')
           .tarjeta(style='background-color: #FAEBCD').p-5.h-100.w-100
             p.mt-2 #[b El aspecto social:] busca garantizar el bienestar de todos los colaboradores de una organización y, asimismo, el de una comunidad. 
-    p.mb-5(data-aos='fade-right') Por otro lado, la agenda 2030 para el desarrollo sostenible estableció una hoja de ruta, por lo que propuso 17 objetivos de Desarrollo Sostenible que buscan lograr generar un crecimiento de las economías, equilibrio con relación al medio ambiente y progreso social.  En la siguiente figura, puede conocer los ODS.
+    p.mb-5(data-aos='fade-right') Por otro lado, la agenda 2030 para el desarrollo sostenible estableció una hoja de ruta, por lo que propuso 17 Objetivos de Desarrollo Sostenible que buscan lograr generar un crecimiento de las economías, equilibrio con relación al medio ambiente y progreso social.  En la siguiente figura, puede conocer los ODS.
 
     .margin-n(style='background-color: #FFF9ED').p-5.mb-5(data-aos="zoom-in")
       .row.justify-content-center.mb-5
@@ -346,7 +346,7 @@
 
             li
               i.fas.fa-check-circle
-              | Necesidad de transporte (medido en emisiones de CO2)
+              | Necesidad de transporte (medido en emisiones de CO#[sub 2] )
     .margin-n(style='background-color: #583CB6' data-aos="zoom-in").p-5.p-lg-4
       .row.justify-content-center
         .col-lg-2.col-4

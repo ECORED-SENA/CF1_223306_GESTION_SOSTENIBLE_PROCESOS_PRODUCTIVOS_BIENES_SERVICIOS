@@ -25,7 +25,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3.mb-1 Partes Interesadas #[em Stakeholder]
+              h3.mb-1 Partes Interesadas #[em Stakeholders]
               p.text-small.mb-0 Como ampliación a este tema, observar el video: “Partes Interesadas #[em Stakeholder]”, que se encuentra en el material complementario.
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=9AtaIAZEu0c" target="_blank")
@@ -124,10 +124,10 @@
               img(src='@/assets/curso/temas/tema3/10.jpg', alt='Texto que describa la imagen').mb-3
     ModalA(:abrir-modal.sync="modal1")
       figure
-        img(src='@/assets/curso/temas/tema3/6.svg', alt='')
+        img(src='@/assets/curso/temas/tema3/8.svg', alt='')
     ModalA(:abrir-modal.sync="modal2")
       figure
-        img(src='@/assets/curso/temas/tema3/8.svg', alt='')
+        img(src='@/assets/curso/temas/tema3/9.svg', alt='')
 
 </template>
 

@@ -73,7 +73,7 @@
     .margin-n(style='background-color: #FFF9ED' data-aos="zoom-in").p-5.mb-5
       .row.justify-content-center.align-items-center
         .col-lg-8 
-          h4.mb-4 Y  las siguientes son las características del desarrollo sostenible:
+          h4.mb-4 Estas son algunas  características de un diagnóstico organizacional:
           ol.lista-ol--cuadro.lista-ol--separador
             li 
               .lista-ol--cuadro__vineta
@@ -103,31 +103,38 @@
         PasosA.color-acento-contenido.mb-5(tipo="n" data-aos="zoom-in")
           .row
             .col-md-8.mb-4.mb-md-0
-              h4 A. Generación de información
+              h4  Generación de información
               p La componen tres aspectos principales:
                 br
-                |a. El medio con que se recoge la información, los instrumentos y los procesos usados.
-                br
-                |b. El método empleado para recolectar la información, la cual se hace de dos formas: primero, el utilizado para adquirir información desde el cliente y el utilizado para adquirirla desde el consultor.
+                ol.lista-ol.ms-3
+                  li
+                    span.text-bold a. 
+                    |  El medio con que se recoge la información, los instrumentos y los procesos usados.
+                  li
+                    span.text-bold b. 
+                    | El método empleado para recolectar la información, la cual se hace de dos formas: primero, el utilizado para adquirir información desde el cliente y el utilizado para adquirirla desde el consultor.
+                  li
+                    span.text-bold c. 
+                    | La periodicidad con que se recopila la información, donde se apoya la estabilidad del proceso. 
             .col-md-4
               figure
                 img(src='@/assets/curso/temas/tema5/9.jpg', alt='Texto que describa la imagen')
           .row
             .col-md-8.mb-4.mb-md-0.order-lg-2.order-1
-              h4 B. Organización de la información
+              h4 Organización de la información
               p Se tienen en cuenta tres variables fundamentales:
                 br
-                |a. El diseño de la metodología para el procesamiento de la información.
+                span.ms-3 a. El diseño de la metodología para el procesamiento de la información.
                 br
-                |b. El almacenamiento adecuado de los datos recopilados.
+                span.ms-3 b. El almacenamiento adecuado de los datos recopilados.
                 br
-                |c. La organización de la información, de tal manera que sea fácil acceder a ella.
+                span.ms-3 c. La organización de la información, de tal manera que sea fácil acceder a ella.
             .col-md-4.order-lg-1.order-2
               figure
                 img(src='@/assets/curso/temas/tema5/10.jpg', alt='Texto que describa la imagen')
           .row
             .col-md-8.mb-4.mb-md-0
-              h4 C. Análisis e interpretación de la información
+              h4 Análisis e interpretación de la información
               p Significa dividir los elementos básicos de la información y estudiarlos, con el fin de responder los objetivos formulados al inicio del proyecto.
             .col-md-4
               figure
@@ -189,7 +196,7 @@
                 img(src='@/assets/curso/temas/tema5/15.svg', alt='' style='width: 68px').m-auto
             .col-lg-10
               div(style='background-color: #FAEBCD').p-4.h-100
-                h4.mb-0 Espiriturales
+                h4.mb-0 Espirituales
                 p.mb-0 Ideología, filosofía, símbolos, mitos o historias.
           .row.justify-content-center.mb-3.g-0
             .col-lg-2

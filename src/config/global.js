@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'La organización y su naturaleza',
     descripcionCurso:
-      'Este componente se centra en identificar los procesos administrativos, planeación estratégica, sus características y elementos en la organización. Asimismo conceptos y normativas de responsabilidad social, desarrollo sostenible, identificación de partes interesadas para la organización y técnicas de diagnóstico.',
+      'Este componente se centra en identificar los procesos administrativos, planeación estratégica, sus características y elementos en la organización. Asimismo, conceptos y normativas de responsabilidad social, desarrollo sostenible, identificación de partes interesadas para la organización y técnicas de diagnóstico.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -55,7 +55,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Desarrollo sosteniblel',
+        titulo: 'Desarrollo sostenible',
         desarrolloContenidos: true,
       },
       {
@@ -132,7 +132,7 @@ export default {
     {
       tema: 'Partes interesadas',
       referencia:
-        'Lteam Training. (2016). Partes Interesadas Stakeholders [Video]. YouTube. ',
+        'Lteam Training. (2016). Partes Interesadas <em>Stakeholders</em> [Video]. YouTube. ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=9AtaIAZEu0c',
     },
@@ -222,13 +222,13 @@ export default {
     },
     {
       referencia:
-        'Business at Speed. (2018). ¿Qué indicadores miden la sostenibilidad de tu empresa? PHC Software. ',
+        'Business at Speed. (2018). ¿Qué indicadores miden la sostenibilidad de tu empresa? PHC <em> Software.</em> ',
       link:
         'https://phcsoftware.pe/business-at-speed/indicadores-sostenibilidad-empresa/',
     },
     {
       referencia:
-        'Calvo, E. (s. f.). Influencia de Stakeholders en el Proyecto. BSG Institute.  ',
+        'Calvo, E. (s. f.). Influencia de <em> Stakeholders</em> en el Proyecto. BSG Institute.  ',
       link:
         'https://bsginstitute.com/bs-campus/blog/influencia-de-stakeholders-en-el-proyecto-69',
     },

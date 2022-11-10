@@ -81,7 +81,7 @@
               p En esta última etapa, la organización mide los resultados de cómo se hicieron las actividades planteadas y efectuadas, con el objetivo de generar mejoras continuas.
             .tarjeta.rounded-0.p-3(x="82%" y="48%" numero="" style='background-color: #F6F6F6')
               img(src='@/assets/curso/temas/tema1/8.svg', alt='' style='width: 82px')
-              h5 01. Planficación
+              h5 01. Planificación
               p Esta etapa consiste en que la organización determine qué se va a hacer, de forma anticipada, para lograr los objetivos propuestos de manera eficiente.
             .tarjeta.rounded-0.p-3(x="50%" y="96%" numero="" style='background-color: #F6F6F6')
               img(src='@/assets/curso/temas/tema1/9.svg', alt='' style='width: 82px')
@@ -99,7 +99,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h3.mb-1 Qué es el Proceso Administrativo y cuáles son sus etapas?
+              h3.mb-1 ¿Qué es el Proceso Administrativo y cuáles son sus etapas?
               p.text-small.mb-0 Para complementar este tema, observe el video: ¿Qué es el Proceso Administrativo y cuáles son sus etapas?, que se encuentra en el material complementario de este componente formativo.
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=QqcjI-zZyb8" target="_blank")
@@ -291,7 +291,7 @@
     p.mb-5(data-aos='fade-right') La planeación estratégica es un conjunto de acciones por medio de las cuales las organizaciones toman decisiones, establecen plazos y asignan responsabilidades para poder alcanzar sus objetivos. En el siguiente video, se observa la importancia y los pasos para realizar una buena planificación estratégica:
     figure.mb-5(data-aos="zoom-in")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/hoSYq25OaQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .titulo(style='background-color: #F7E9E1').d-inline-block.p-3.mb-4(data-aos="fade-right")
       h4.mb-0 Herramientas para la ejecución de un plan estratégico
     p.mb-5(data-aos='fade-right') Existen varios mecanismos y herramientas de gestión que ayudan a organizar y definir las ideas al  momento de planificar, entre ellos están:
