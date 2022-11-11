@@ -26,7 +26,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h3.mb-1 Partes Interesadas #[em Stakeholders]
-              p.text-small.mb-0 Como ampliación a este tema, observar el video: “Partes Interesadas #[em Stakeholder]”, que se encuentra en el material complementario.
+              p.text-small.mb-0 Como ampliación a este tema, observar el video: “Partes Interesadas #[em Stakeholders]”, que se encuentra en el material complementario.
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=9AtaIAZEu0c" target="_blank")
                 span Ver video

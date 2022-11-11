@@ -163,8 +163,8 @@
       .col-lg-4.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema4/11.svg', alt='')
       .col-lg-8(data-aos="fade-left")
         LineaTiempoD.color-acento-contenido
-          p.text-small(numero="1" titulo="Diseñar programas de RSE con objetivos a mediano y largo plazo") La mayoría de las organizaciones desarrollan programas de RSE a corto plazo, que suelen ser menos eficaces y, en muchas ocasiones, no están relacionados con sus operaciones. Estas orientaciones reflejan medios oportunistas o mercadeo social, pero no un compromiso con la sociedad. Una misión real de la RSE establece objetivos sociales claros a mediano o largo plazo.
-          p.text-small(numero="2" titulo="Generar una reputación social") Las empresas se enfocan en mostrar una buena imagen corporativa y no una reputación, a pesar de que la imagen corporativa va ligada al reconocimiento y participación de las actividades de mercadeo y publicidad de la organización. Para crear una imagen corporativa y generar una reputación social, es importante tener una gestión responsable a nivel interno y externo en la organización.
+          p.text-small(numero="1" titulo="No se puede solo diseñar proyectos de RSE para tener reconocimientos, premios y distinciones") Casi siempre, muchas organizaciones elaboran sus proyectos de RSE para ganar reconocimientos y no por realizar un cambio relevante en la sociedad. La idea es concientizar a las organizaciones a trabajar por el bienestar de las comunidades y no fijarse tanto en ganar distinciones.
+          p.text-small(numero="2" titulo="No determinar la gestión de la RSE") En gran parte, las empresas y ciertos sectores sociales se limitan con respecto a la RSE, es decir, no realizan dichas acciones por un tema de rentabilidad o mayores ganancias en las organizaciones, aun cuando no es por falta de dinero. Es una postura lamentable y poco promovida, ya que se busca actuar de manera voluntaria y aportarle un bien a la sociedad.
           p.text-small(numero="3" titulo="Proporcionar las acciones de RSE internas con las externas") Generalmente, conversar con los colaboradores de una organización acerca de la RSE es decepcionante, al escuchar que no practican de manera interna lo que impulsan afuera de esta. Si se implementa RSE en las empresas, se debe hacer de forma tanto interna como externa, para que las reconozcan como socialmente responsables.
     .cajon-b-editado(data-aos="zoom-in")
       .cajon-b.color-primario.p-3.arriba-derecha
@@ -346,7 +346,7 @@
 
             li
               i.fas.fa-check-circle
-              | Necesidad de transporte (medido en emisiones de CO#[sub 2] )
+              p.mb-0 Necesidad de transporte (medido en emisiones de CO<sub>2</sub> )
     .margin-n(style='background-color: #583CB6' data-aos="zoom-in").p-5.p-lg-4
       .row.justify-content-center
         .col-lg-2.col-4
